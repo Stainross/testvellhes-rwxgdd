@@ -1,0 +1,16 @@
+img {
+  width: 150px;
+}
+p {
+  width: 140px;
+  text-align: center;
+  display: inline-block;
+}
+#box {
+  width: 100%;
+  text-align: center;
+  color: blue;
+}
+#score {
+  width: 100%;
+}

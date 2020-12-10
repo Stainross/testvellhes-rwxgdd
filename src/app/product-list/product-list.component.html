@@ -1,0 +1,13 @@
+<h2>Membres du groupe</h2>
+
+<div *ngFor="let members of members">
+  <h3>
+    <a [title]="members.name + ' details'">
+      {{ members.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="members.age">
+    Age : {{ members.age }}
+  </p>
+</div>
